@@ -22,11 +22,11 @@ public class TestConfig implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		User u1 = new User(null, "Ronaldo Prass", "rprass@gmail.com", "1234", "56321");
-		User u2 = new User(null, "Ronaldinho Malvadeza", "ronaldoprass@gmail.com", "6666", "666");
+		//User u1 = new User(null, "Ronaldo Prass", "rprass@gmail.com", "1234", "56321");
+		//User u2 = new User(null, "Ronaldinho Malvadeza", "ronaldoprass@gmail.com", "6666", "666");
 		
-		repository.deleteAll();
-		repository.saveAll(Arrays.asList(u1,u2));
+		//repository.deleteAll();
+		//repository.saveAll(Arrays.asList(u1,u2));
 		
 	}
 	
